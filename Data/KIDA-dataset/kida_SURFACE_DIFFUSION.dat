@@ -1,0 +1,13 @@
+C           0.000e+00 0.00e+00  1.020e+03 4.00e+01 CompactA  Surface 2
+CO          2.200e-01 0.00e+00  3.264e+03 2.52e+02 H2Oice/A     Bulk 2
+CO          7.940e-02 1.80e-02  6.030e+02 7.20e+00 H2Oice/C  surface 2
+CO          1.600e-11 0.00e+00  1.179e+02 0.00e+00 H2Oice/A  surface 2
+CO          9.200e-10 0.00e+00  3.000e+02 1.74e+02 H2Oice/A  surface 2
+OH          0.000e+00 0.00e+00  1.650e+03 6.00e+01 CompactA  Surface 1
+CO2         2.200e-01 0.00e+00  3.000e+03 2.88e+02 H2Oice/A     Bulk 2
+H2O         2.200e-01 0.00e+00  3.036e+03 1.56e+02 H2Oice/A     Bulk 2
+H2CO        2.200e-01 0.00e+00  3.000e+03 2.04e+02 H2Oice/A     Bulk 2
+H2CO        6.800e-09 0.00e+00  1.395e+03 0.00e+00 H2Oice/A  surface 2
+NH3         2.200e-01 0.00e+00  3.048e+03 1.20e+02 H2Oice/A     Bulk 2
+NH3         5.500e+19 0.00e+00  8.480e+03 0.00e+00 H2Oice/A  surface 2
+HNCO        8.100e-04 0.00e+00  2.947e+03 0.00e+00 H2Oice/A  surface 2
