@@ -16,3 +16,8 @@ https://github.com/gkrieg/mmunin/tree/main
 
 Reaction template generation
 
+
+
+BiGG: 
+http://bigg.ucsd.edu/models
+- Pietro (https://www.mdpi.com/1099-4300/25/11/1537)
