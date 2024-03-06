@@ -12,13 +12,16 @@ def directed_tensor(dictionary, N):
 
     for in_edge, out_edge in dictionary.values():
         
+        # For the F-hyperedge projection normalization
+        m_F = len(out_edge)
+        
         for out_node in out_edge:
             
             for in_nodes in set(permutations(in_edge)):
                 
                 indices = tuple([in_node for in_node in in_nodes] + [out_node])
                 
-                tensor_dict[indices] += 1
+                tensor_dict[indices] += 1/m_F
         
     return dict(tensor_dict), tuple([N]*L)
 

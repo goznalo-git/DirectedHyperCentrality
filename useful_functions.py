@@ -2,10 +2,28 @@ import numpy as np
 import networkx as nx
 from itertools import product
 from collections import defaultdict
-
+import scipy
 
 
 ## Newly defined
+
+
+
+def standard_network(dictionary):
+    
+    G = nx.DiGraph()
+    
+    for in_edge, out_edge in dictionary.values():
+        
+        for edge in product(in_edge, out_edge):
+            if edge in G.edges:
+                G.edges[edge[0], edge[1]]['weight'] += 1
+            else:
+                G.add_edge(*edge, weight = 1)
+                
+    return G
+
+
 
 def hypergraph_statistics(dictionary):
     
@@ -74,17 +92,3 @@ def topN(cent, N=None, return_list=False):
 
     return ranking
 
-
-def standard_network(dictionary):
-    
-    G = nx.DiGraph()
-    
-    for in_edge, out_edge in dictionary.values():
-        
-        for edge in product(in_edge, out_edge):
-            if edge in G.edges:
-                G.edges[edge[0], edge[1]]['weight'] += 1
-            else:
-                G.add_edge(*edge, weight = 1)
-                
-    return G
