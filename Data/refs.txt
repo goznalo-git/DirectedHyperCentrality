@@ -1,12 +1,7 @@
-Automated reaction database and reaction network analysis: extraction of reaction templates using cheminformatics
+KIDA database https://github.com/smaret/astrochem
 
 
-KIDA database
-
-
-
-AstroChem:
-
+AstroChem:https://github.com/smaret/astrochem
 
 
 Shortest Hyperpaths in Directed Hypergraphs for Reaction Pathway Inference
@@ -14,10 +9,12 @@ https://www.liebertpub.com/doi/10.1089/cmb.2023.0242
 https://github.com/gkrieg/mmunin/tree/main
 
 
-Reaction template generation
+Reaction template generation (RTG)
+"Automated reaction database
+and reaction network analysis: extraction
+of reaction templates using cheminformatics"
 
 
-
-BiGG: 
-http://bigg.ucsd.edu/models
+Metabolical:
+- BiGG: http://bigg.ucsd.edu/models
 - Pietro (https://www.mdpi.com/1099-4300/25/11/1537)
