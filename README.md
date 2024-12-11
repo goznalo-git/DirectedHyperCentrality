@@ -1,6 +1,6 @@
 # Spectral centrality of directed hypergraphs
 
-This repository contains the scripts, data and (pre-processed) figures/tables from the "Beyond directed hypergraphs: heterogeneous hypergraphs and spectral centralities" paper by G. Contreras-Aso, R. Criado, M. Romance, available as a preprint at [arXiv:2403.11825](https://arxiv.org/abs/2403.11825).
+This repository contains the scripts, data and (pre-processed) figures/tables from the "Beyond directed hypergraphs: heterogeneous hypergraphs and spectral centralities" paper by G. Contreras-Aso, R. Criado, M. Romance, published in [Journal of Complex Networks](https://doi.org/10.1093/comnet/cnae037)), and available as a preprint at [arXiv:2403.11825](https://arxiv.org/abs/2403.11825).
 
 ## Structure of the repository
 
@@ -14,10 +14,19 @@ The following files and directories are briefly summarized.
 
 Bibtex citation:
 ```
-@article{contreras2024beyond,
-  title={Beyond directed hypergraphs: heterogeneous hypergraphs and spectral centralities},
-  author={Contreras-Aso, Gonzalo and Criado, Regino and Romance, Miguel},
-  journal={arXiv preprint arXiv:2403.11825},
-  year={2024}
+@article{contrerasaso2024beyond,
+    author = {Contreras-Aso, Gonzalo and Criado, Regino and Romance, Miguel},
+    title = {Beyond directed hypergraphs: heterogeneous hypergraphs and spectral centralities},
+    journal = {Journal of Complex Networks},
+    volume = {12},
+    number = {5},
+    pages = {cnae037},
+    year = {2024},
+    month = {09},
+    issn = {2051-1329},
+    doi = {10.1093/comnet/cnae037},
+    url = {https://doi.org/10.1093/comnet/cnae037},
+    eprint = {https://academic.oup.com/comnet/article-pdf/12/5/cnae037/59074198/cnae037.pdf},
 }
+
 ```
